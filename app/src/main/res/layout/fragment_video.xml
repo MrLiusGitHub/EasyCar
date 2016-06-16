@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/ptr_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptr_ratio_of_header_height_to_refresh="1.0"
+        ptr:ptr_resistance="1.0">
+
+        <ListView
+            android:id="@+id/list_vedio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+</LinearLayout>

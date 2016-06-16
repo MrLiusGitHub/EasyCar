@@ -1,0 +1,2 @@
+include ':app', ':lib_main', 'lib_sli'
+include ':lib_ptr'

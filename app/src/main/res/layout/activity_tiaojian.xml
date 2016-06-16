@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.ldc.easycar.TiaoJianActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_back_xc_ym"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/bbs_bottom_left"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="选车"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/chongzhi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|end"
+                android:paddingRight="10dp"
+                android:text="重置"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#4999"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="5"
+                android:text="价格"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_min_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="20"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fengexian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" - "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_max_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="30"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <views.MaterialRangeSlider
+            android:id="@+id/price_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:minHeight="96dp"
+            app:insideRangeLineColor="@color/tms_blue"
+            app:insideRangeLineStrokeWidth="4dp"
+            app:outsideRangeLineColor="@color/tms_gray"
+            app:outsideRangeLineStrokeWidth="2dp"
+            app:pressedTargetRadius="12dp"
+            app:targetColor="@color/tms_blue"
+            app:unpressedTargetRadius="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#4999"
+            android:padding="5dp"
+            android:text="级别"
+            android:textSize="20sp" />
+
+        <views.FlowRadioGroup
+            android:id="@+id/flowradiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/weixingche_selector"
+                android:gravity="center"
+                android:text="微型车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/xiaoxing_selector"
+                android:gravity="center"
+                android:text="小型车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/xiaoxing_selector"
+                android:gravity="center"
+                android:text="紧凑型车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/zhongxing_selector"
+                android:gravity="center"
+                android:text="中型车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/zhongda_selector"
+                android:gravity="center"
+                android:text="中大型车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/haohua_selector"
+                android:gravity="center"
+                android:text="豪华车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/mpv_seletor"
+                android:gravity="center"
+                android:text="MPV" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/suv_selector"
+                android:gravity="center"
+                android:text="SUV" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/paoche_selector"
+                android:gravity="center"
+                android:text="跑车" />
+
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/mianbao_selector"
+                android:gravity="center"
+                android:text="面包车" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:button="@null"
+                android:drawableTop="@drawable/pika_selector"
+                android:gravity="center"
+                android:text="皮卡" />
+
+        </views.FlowRadioGroup>
+
+        <Button
+            android:id="@+id/btn_chaxun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Mr.Liu\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "C:\\Users\\Mr.Liu\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldc\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "C:\\Users\\ldc\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldc\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\Users\\ldc\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mr.Liu\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\Users\\Mr.Liu\\Desktop\\EasyCar\\lib_ptr\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_xc_shouchang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shoucang" />
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_xc_paihang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/paihang" />
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_xc_xinche"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/xinche" />
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_xc_kanche"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kanche" />
+    </LinearLayout>
+
+    <View
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#5999"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:gravity="left|center"
+            android:id="@+id/tv_meishilanjie1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="条件选车"/>
+        <TextView
+            android:gravity="right|center"
+
+            android:id="@+id/tv_xc_gdtj"
+            android:layout_marginRight="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/abc_ic_ab_back_holo_light"
+            android:textSize="12sp"
+            android:text="更多条件"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_wuwan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5万以下"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_bawan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5-8万"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_shierwan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8-12万"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_shibawan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="12-18万"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_xiaoxing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="小型车"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_jincou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="紧凑型车"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_zhongxing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="中型车"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_xc_suv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SUV"/>
+    </LinearLayout>
+
+
+</LinearLayout>
